@@ -14,6 +14,8 @@
   height: 100%;
   position: fixed;
   overflow: auto;
+  z-index: 1;
+  float: left;
 }
 
 li a {
