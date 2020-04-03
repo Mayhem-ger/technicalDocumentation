@@ -3,7 +3,7 @@
 }
 
 
-ul {
+.ul-navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -26,6 +26,21 @@ li a:hover {
   color: white;
 }
 
+p {
+  padding: 0.25em 1em;
+}
+
+code {
+  display: flex;
+  padding: 0.25em 1em;
+  background-color: lightgrey;
+  width: 80%;
+}
+
+.list-element-text {
+  padding: 0.25em 1em;
+}
+
 .active {
   background-color: #4CAF50;
   color: white;
@@ -35,4 +50,14 @@ li a:hover {
   display: block;
   padding: 1em 2em;
   font-size: 1em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+  grid-column-gap: 3em;
+}
+
+.main-section {
+  padding: 1em 1em 1em 1em;
 }
